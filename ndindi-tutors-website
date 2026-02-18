@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NDINDI Tutors | Private Tutoring in Randfontein</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+nav {
+  background: #0a1f44;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+nav h2 {
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.hero {
+  background: linear-gradient(to right, #0a1f44, #123b7a);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: #ff9800;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #e68900;
+}
+
+.section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.contact {
+  background: #0a1f44;
+  color: white;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  background: #ff9800;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e68900;
+}
+
+footer {
+  background: #081733;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+@media(max-width:768px){
+  .hero h1 { font-size: 28px; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h2>NDINDI Tutors</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#subjects">Subjects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Unlock Your Child’s Academic Potential</h1>
+  <p>Private tutoring in Randfontein with personalised learning & proven results.</p>
+  <a href="tel:0693457771" class="btn btn-primary">Call Now</a>
+  <a href="https://wa.me/27693457771" class="btn btn-primary">WhatsApp</a>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <h2>Why Choose NDINDI Tutors?</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>4.9 ⭐ Rated</h3>
+        <p>Trusted by parents in Randfontein for academic excellence.</p>
+      </div>
+      <div class="card">
+        <h3>Experienced Tutors</h3>
+        <p>Qualified educators focused on improving student performance.</p>
+      </div>
+      <div class="card">
+        <h3>Personalised Learning</h3>
+        <p>Custom study plans tailored to each student’s needs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="subjects" style="background:#eef2f9;">
+  <div class="container">
+    <h2>Subjects Offered</h2>
+    <div class="grid">
+      <div class="card"><h3>Mathematics</h3></div>
+      <div class="card"><h3>Physical Sciences</h3></div>
+      <div class="card"><h3>Accounting</h3></div>
+      <div class="card"><h3>English</h3></div>
+      <div class="card"><h3>Life Sciences</h3></div>
+      <div class="card"><h3>Exam Preparation</h3></div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="container">
+    <h2>Book a Consultation</h2>
+    <form action="mailto:ndinditutors@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="Parent Name" placeholder="Parent Name" required>
+      <input type="text" name="Student Grade" placeholder="Student Grade" required>
+      <input type="text" name="Subject" placeholder="Subject Needed" required>
+      <input type="tel" name="Phone" placeholder="Phone Number" required>
+      <textarea name="Message" rows="4" placeholder="Message"></textarea>
+      <button type="submit">Submit Enquiry</button>
+    </form>
+    <p style="margin-top:20px;">
+      📍 7475 Selopi Thema St, Mohlakeng, Randfontein<br>
+      📞 069 345 7771<br>
+      🕒 Open until 5:30 PM
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2026 NDINDI Tutors | All Rights Reserved
+</footer>
+
+<a href="https://wa.me/27693457771" class="whatsapp">💬</a>
+
+</body>
+</html>
